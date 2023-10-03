@@ -31,8 +31,9 @@ public class AssertTest {
     public void testDivision(){
         Assert.assertTrue(5==5);
     }
-
-@Test
-public void testRandom(){
-    throw new SkipException("Thow new skipp");
-}}
+//
+//@Test
+//public void testRandom(){
+//    throw new SkipException("Thow new skipp");
+//}
+}
