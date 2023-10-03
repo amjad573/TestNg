@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Calculator" parallel="tests">
+
     <test name="Division Test">
         <classes>
             <class name="exampleTest"></class>
@@ -9,6 +10,11 @@
     <test name="Grading Test">
         <classes>
             <class name="GradeCalculatorTest"></class>
+        </classes>
+    </test>
+    <test name="Annotation Test">
+        <classes>
+            <class name="AssertTest"></class>
         </classes>
     </test>
 </suite>
